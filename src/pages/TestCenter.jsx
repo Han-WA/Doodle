@@ -1,7 +1,5 @@
 import React from "react";
-import { courses, testcenter } from "../components/assets/data/dummydata";
 import { NavLink } from "react-router-dom";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { tcenter } from "../components/assets/data/dummydata";
 
 export const TCenter = () => {
