@@ -39,10 +39,10 @@ export const HomeContent = () => {
               <div className='images relative'>
                 <img src={heroImgback} alt='' className=' absolute top-32 left-10 w-96 md:left-10' />
                 <div className='img h-[85vh] w-full'>
-                  <img src={heroImg} alt='' className='h-full w-full object-contain z-20 relative' />
+                  {/* <img src={heroImg} alt='' className='h-full w-full object-contain z-20 relative' /> */}
                 </div>
               </div>
-              <div className='content'>
+              {/* <div className='content'>
                 <button className='bg-white shadow-md absolute top-56 left-0 z-30 p-2 flex items-center rounded-md'>
                   <div className='icon w-10 h-10 text-white rounded-full flex items-center justify-center bg-orange-400'>
                     <BsFillLightningChargeFill size={25} />
@@ -75,7 +75,7 @@ export const HomeContent = () => {
                     <FaBookReader size={25} />
                   </div>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
