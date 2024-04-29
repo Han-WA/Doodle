@@ -14,7 +14,7 @@ export const Header = () => {
             <img src={LogoImg} alt='logo' className='h-10' />
           </div>
 
-          <nav className={open ? "mobile-view" : "desktop-view"}>
+          <nav className={`flex items-center justify-between ${open ? "mobile-view" : "desktop-view"}`}>
             <ul className='flex items-center gap-6'>
               {LinkData.map((link) => (
                 <li key={link.id} onClick={() => setOpen(null)}>
@@ -26,7 +26,7 @@ export const Header = () => {
             </ul>
           </nav>
           
-          <div className='account flex items-center gap-5'>           
+          <div className='account flex items-center gap-1'>           
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>
