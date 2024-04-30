@@ -12,7 +12,8 @@ export const Partners = () => {
             <span className="border-b-2 border-black pb-2">Educational Partners</span>
             </h1>
         </div>
-        <div className="partners-container flex justify-center gap-8">
+
+        <div className="flex mx-auto justify-spacebetween">
           <div className="partner-item">
             <div className="partner-box">
               <img src={partner1} alt="Partner 1" className="partner-image" />
