@@ -5,7 +5,9 @@ import { tcenter } from "../components/assets/data/dummydata";
 export const TCenter = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
+
         <img
           className="w-[300px] mx-auto my-4"
           src={tcenter[0].cover}
@@ -15,7 +17,6 @@ export const TCenter = () => {
           <p className="text-[#00df9a] font-bold text-3xl">
             First GED Test center in ranong
           </p>
-          {/* <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Manage Data Analytics Centrally</h1> */}
           <p>
             The Pearson VUE authorized testing center established by Doodle at
             Ranong Community College will inaugurate the first GED Test Center
@@ -24,6 +25,7 @@ export const TCenter = () => {
             high school education.
           </p>
         </div>
+
       </div>
 
       <div className="w-full py-16 text-black px-3">
@@ -99,13 +101,14 @@ export const TCenter = () => {
         className="lg:col-span-2 my-4 flex flex-col items-center"
         style={{ marginTop: "5%" }}
       >
-        <div className="flex justify-between">
+        <div className="flex">
           <img
-            className="w-[400px] mx-auto my-4 shadow"
+            className="w-[400px]"
             src={tcenter[1].cover}
             alt="/"
-            style={{ marginRight: "5%" }}
+            style={{ marginRight: "30px" }}
           />
+
           <div>
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
               Location
@@ -120,6 +123,7 @@ export const TCenter = () => {
             </h1>
             <p>Monday-Friday: 9:00 – 17:00 </p> <p>Saturday: 9:00 – 14:00</p>
           </div>
+          
         </div>
       </div>
 
