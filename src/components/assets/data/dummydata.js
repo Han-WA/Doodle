@@ -20,9 +20,41 @@ export const LinkData = [
     url: "/testcenter",
   },
   {
+    id: 4,
+    title: "Vocational Education",
+    url: "/vocationaleducation/overview",
+  },
+  {
     id: 5,
     title: "Offices",
     url: "/offices",
+  },
+]
+export const LinkData2 = [
+  {
+    id: 1,
+    title: "Overview",
+    url: "/vocationaleducation/overview",
+  },
+  {
+    id: 2,
+    title: "About JRV",
+    url: "/vocationaleducation/about",
+  },
+  {
+    id: 3,
+    title: "Program",
+    url: "/vocationaleducation/program",
+  },
+  {
+    id: 4,
+    title: "Campus Life",
+    url: "/vocationaleducation/campuslife",
+  },
+  {
+    id: 4,
+    title: "Apply Now",
+    url: "/vocationaleducation/apply",
   },
 ]
 export const courses = [
