@@ -101,3 +101,55 @@ export const offices=[
     photo: '../images/ranong_office.jpeg',
   },
 ]
+export const overview = [
+  {
+    id: 1,
+    cover: "../images/jrvlogo.jpg",
+  }, 
+  {
+    id: 2,
+    cover: "../images/infographic_1.jpg",
+  }
+]
+export const campus = [
+  {
+    photo: '../images/campus_1.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_2.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_3.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_4.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_5.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_6.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_7.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_8.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_9.jpg',
+    description: 'short description'
+  },
+  {
+    photo: '../images/campus_10.jpg',
+    description: 'short description'
+  },
+]

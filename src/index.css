@@ -363,4 +363,50 @@ header .container {
   }
 }
 
+/* Overview css */
+
+/* overview.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .infographic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .infographic {
+    margin-bottom: 20px;
+  }
+
+  .programs .grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* CampusLife css */
+
+@media screen and (max-width: 768px) {
+  .campus .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .campus .grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 
