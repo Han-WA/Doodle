@@ -10,14 +10,14 @@ export const Overview = () => {
       <div className="w-4/5 m-auto">
         <div className="heading py-12 text-center w-2/3 m-auto md:w-full">
           <h1 className="text-3xl font-semibold text-black">
-            <span className="border-b-2 border-black pb-2">Overview</span>
+            <span className="border-b-2 border-black pb-2">Overview (Doodle x JRV Partnership)</span>
             </h1>
         </div>
         {/* Image Section */}
         <div className="image-section w-4/5 m-auto">
-            <img src={overview[0].cover} alt="Overview" className="w-full" />
-          </div>
-
+            <img src={overview[0].cover} alt="Overview" className="w-2/5 m-auto" />
+            <img src={overview[1].cover} alt="Overview" className="w-2/5 m-auto" />
+        </div>
           {/* College Highlights Section */}
           <section className="college-highlights py-16">
             <div className="w-4/5 m-auto">
@@ -28,7 +28,7 @@ export const Overview = () => {
                 {/* Infographic goes here */}
                 <div className="infographic">
                   {/* Your infographic content */}
-                  <img className="w-[300px] mx-auto my-4" src={overview[1].cover} alt="/"/>
+                  <img className="w-[400px] mx-auto my-4" src={overview[2].cover} alt="/"/>
                 </div>
                 <div className="description">
                   <h3 className="text-lg font-semibold text-black mb-4">Medical Care Business Program</h3>

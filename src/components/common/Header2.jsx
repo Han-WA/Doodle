@@ -9,7 +9,7 @@ export const Header2 = () => {
     <>
       <header className='bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full'>
         <div className='container flex justify-between items-center'>
-          <nav className={`flex items-center justify-between ${open ? "mobile-view" : "desktop-view"}`}>
+          <nav className={`flex items-center justify-between ${open ? "mobile-view-2" : "desktop-view-2"}`}>
             <ul className='flex items-center gap-6'>
               {LinkData2.map((link) => (
                 <li key={link.id} onClick={() => setOpen(null)}>

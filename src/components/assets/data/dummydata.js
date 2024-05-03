@@ -108,6 +108,10 @@ export const overview = [
   }, 
   {
     id: 2,
+    cover: "../images/logo-black.png",
+  }, 
+  {
+    id: 3,
     cover: "../images/infographic_1.jpg",
   }
 ]
