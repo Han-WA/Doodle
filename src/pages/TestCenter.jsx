@@ -5,9 +5,7 @@ import { tcenter } from "../components/assets/data/dummydata";
 export const TCenter = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
-
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
-
         <img
           className="w-[300px] mx-auto my-4"
           src={tcenter[0].cover}
@@ -25,7 +23,6 @@ export const TCenter = () => {
             high school education.
           </p>
         </div>
-
       </div>
 
       <div className="w-full py-16 text-black px-3">
@@ -123,7 +120,6 @@ export const TCenter = () => {
             </h1>
             <p>Monday-Friday: 9:00 – 17:00 </p> <p>Saturday: 9:00 – 14:00</p>
           </div>
-          
         </div>
       </div>
 

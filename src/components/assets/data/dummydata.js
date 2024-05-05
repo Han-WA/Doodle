@@ -78,8 +78,11 @@ export const tcenter = [
   }, 
   {
     id: 2,
-    cover: "../images/gedcenter.jpeg",
-  }
+    cover: "../images/ranong_office.jpeg",
+  },
+]
+export const jrv = [
+  {imgpath: "../images/jrvlogo.jpg"}
 ]
 export const offices=[
   {
