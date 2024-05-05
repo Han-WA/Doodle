@@ -4,7 +4,7 @@ import { jrv } from "../../components/assets/data/dummydata";
 
 export const AboutJRV = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div className="w-full bg-white px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
         <img
           className="w-full my-2"

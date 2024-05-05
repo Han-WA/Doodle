@@ -52,6 +52,7 @@ export const TCenter = () => {
               Our friendly staff will guide you through the check-in process.{" "}
             </p>
           </div>
+          
           <div className="my-4">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full">
               <NavLink
