@@ -33,7 +33,7 @@ export const AboutJRV = () => {
         />
 
         <div>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-4">
+          <h1 className="text-[#FF9630] md:text-4xl sm:text-3xl text-2xl font-bold py-4">
             Description of the Chanrawee Vocational College Emblem
           </h1>
           <br/>
@@ -76,7 +76,7 @@ export const AboutJRV = () => {
       <div className="w-full py-16 text-black px-3">
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-2">
           <div className="lg:col-span-2 my-4 flex flex-col items-center">
-            <h1 className="text-[#00df9a] font-bold text-3xl">Vision</h1>
+            <h1 className="text-[#FF9630] font-bold text-3xl">Vision</h1>
             <br />
             <p>
               <b>
@@ -90,12 +90,12 @@ export const AboutJRV = () => {
       </div>
 
       <div
-        className="w-full py-16 text-white px-3"
-        style={{ backgroundColor: "black" }}
+        className="w-full py-16 text-black px-3"
+        style={{ backgroundColor: "#FF9630" }}
       >
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
           <div className="lg:col-span-2 my-4">
-            <p className="text-[#00df9a] font-bold text-2xl">Mission</p>
+            <p className="text-black font-bold text-2xl">Mission</p>
             <br />
             <p>
               <b>Mission 1 : </b> Produce graduates in health sciences and
@@ -148,7 +148,7 @@ export const AboutJRV = () => {
       <div className="w-full py-16 text-black px-3">
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-2">
           <div className="lg:col-span-2 my-4 flex flex-col items-center">
-            <h1 className="text-[#00df9a] font-bold text-3xl">Personnels</h1>
+            <h1 className="text-[#FF9630] font-bold text-3xl">Personnels</h1>
             <br />
             <img
               className="w-full mx-auto my-4"
