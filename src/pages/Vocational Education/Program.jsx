@@ -4,7 +4,7 @@ import { tcenter } from "../../components/assets/data/dummydata";
 export const Program = () => {
   return (
     <>
-      <section className="partners" sytle={{ paddingBottom: "20px" }}>
+      <section className="program" sytle={{ paddingBottom: "20px" }}>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
           <img
             className="w-[full] my-2"
@@ -20,19 +20,20 @@ export const Program = () => {
               <br />
               <div className="flex space-x-4">
                 <img
-                  className="w-[250px] h-[400px] my-4"
+                  className="w-[250px] h-[400px] my-4" alt=""
                   src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/3-1-683x1024-1.png"
+                  
                 />
                 <img
-                  className="w-[250px] h-[400px] my-4"
+                  className="w-[250px] h-[400px] my-4" alt=""
                   src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/4-683x1024-1.png"
                 />
                 <img
-                  className="w-[250px] h-[400px] my-4"
+                  className="w-[250px] h-[400px] my-4" alt=""
                   src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/5-683x1024-1.png"
                 />
                 <img
-                  className="w-[250px] h-[400px] my-4"
+                  className="w-[250px] h-[400px] my-4" alt=""
                   src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/6-683x1024-1.png"
                 />
               </div>
@@ -115,19 +116,19 @@ export const Program = () => {
             <br />
             <div className="flex space-x-10">
               <img
-                className="w-[250px]  my-4"
+                className="w-[250px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/11/400540288_300962086112027_8341294494902272249_n-1.jpg"
               />
               <img
-                className="w-[250px]  my-4"
+                className="w-[250px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/11/400620572_300962202778682_1650228104486700475_n.jpg"
               />
               <img
-                className="w-[250px]  my-4"
+                className="w-[250px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/11/400569094_300962169445352_6745439140503682135_n.jpg"
               />
               <img
-                className="w-[250px] my-4"
+                className="w-[250px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/11/400443914_300962186112017_8401111149684198639_n.jpg"
               />
             </div>
@@ -150,33 +151,33 @@ export const Program = () => {
             <br />
             <div className="flex space-x-4">
               <img
-                className="w-[250px] my-4"
+                className="w-[250px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/LINE_ALBUM_23166_%E0%B9%92%E0%B9%93%E0%B9%90%E0%B9%91%E0%B9%92%E0%B9%93_1-768x512.jpg"
               />
               <img
-                className="w-[250px] my-4"
+                className="w-[250px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/LINE_ALBUM_23166_%E0%B9%92%E0%B9%93%E0%B9%90%E0%B9%91%E0%B9%92%E0%B9%93_3-768x512.jpg"
               />
               <img
-                className="w-[250px]  my-4"
+                className="w-[250px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/LINE_ALBUM_23166_%E0%B9%92%E0%B9%93%E0%B9%90%E0%B9%91%E0%B9%92%E0%B9%93_0-768x576.jpg"
               />
             </div>
             <div className="flex space-x-4">
               <img
-                className="w-[200px] my-4"
+                className="w-[200px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/320227314_537574508083352_5747690581856336107_n-768x576.jpg"
               />
               <img
-                className="w-[200px] my-4"
+                className="w-[200px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/323064989_1642998006131403_1429078425984159003_n-768x576.jpg"
               />
               <img
-                className="w-[200px]  my-4"
+                className="w-[200px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/IMG_0543-768x431.jpg"
               />
               <img
-                className="w-[200px]  my-4"
+                className="w-[200px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/IMG_0662-768x431.jpg"
               />
             </div>
@@ -189,30 +190,30 @@ export const Program = () => {
             <br />
             <div className="flex space-x-4">
               <img
-                className="w-[250px] my-4"
+                className="w-[250px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/02/S__37363738-768x576.jpg"
               />
               <img
-                className="w-[250px] my-4"
+                className="w-[250px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/02/S__37363737-768x568.jpg"
               />
               <img
-                className="w-[250px]  my-4"
+                className="w-[250px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/IMG_2610-768x576.jpg"
               />
             </div>
             <div className="flex space-x-4">
               <img
-                className="w-[200px] my-4"
+                className="w-[200px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/S__6406177-768x562.jpg"
               />
               <img
-                className="w-[200px] my-4"
+                className="w-[200px] my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/02/S__37363735-768x570.jpg"
               />
 
               <img
-                className="w-[200px]  my-4"
+                className="w-[200px]  my-4" alt=""
                 src="https://www.janrawee.ac.th/wp-content/uploads/2023/01/S__6406178-768x513.jpg"
               />
             </div>

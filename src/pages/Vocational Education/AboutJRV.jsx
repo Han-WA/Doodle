@@ -1,5 +1,4 @@
 import React from "react";
-import { tcenter } from "../../components/assets/data/dummydata";
 import { jrv } from "../../components/assets/data/dummydata";
 
 export const AboutJRV = () => {
@@ -153,7 +152,7 @@ export const AboutJRV = () => {
             <img
               className="w-full mx-auto my-4"
               src="https://www.janrawee.ac.th/wp-content/uploads/2023/06/0606.png"
-              alt="personnel image"
+              alt=""
             />
           </div>
         </div>
